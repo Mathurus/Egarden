@@ -1,6 +1,7 @@
 #include <WiFi.h>
 #include <WebServer.h>
 #include <HTTPClient.h>
+#include <ArduinoJson.h>
 
 #define WIFI_SSID ""
 #define WIFI_PASSWORD ""
@@ -12,6 +13,23 @@ int airHumidity = 32;
 int soilHumidity = 52;
 int gas = 33; 
 int light = 66;
+
+
+
+void handlePost() {
+    String body = server.arg("plain");
+
+    StaticJsonDocument<200> doc;
+    DeserializationError error = deserializeJson(doc, body);
+
+    if (!error) {
+        etat_moteur1 = doc["etat_moteur1"];
+
+        server.send(200, "text/plain", "JSON reçu !");
+    } else {
+        server.send(400, "text/plain", "Erreur JSON");
+    }
+}
 
 void pagehhtml() {
     String response = R"(
@@ -63,6 +81,7 @@ void setup() {
     Serial.println(httpResponseCode);
 
     http.end();
+    server.on("/data", HTTP_POST, handlePost);
 }
 
 void loop() {
