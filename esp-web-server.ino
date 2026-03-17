@@ -48,7 +48,7 @@ void setup() {
     server.on("/", pagehhtml);
     server.begin();
 
-    String url = "https://egarden.onrender.com/sensor?";
+    String url = "https://your-api.com/sensor?";
     url += "airHumidity=" + String(airHumidity);
     url += "&soilHumidity=" + String(soilHumidity);
     url += "&temperature=" + String(temperature);
