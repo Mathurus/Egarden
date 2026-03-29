@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0" version="29.6.6">
+  <diagram name="Page-1" id="42mvH7Z6hAbnqtPnRYsQ">
+    <mxGraphModel dx="1426" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xYrKP0eJec_9aG1egPdF-5" edge="1" parent="1" source="xYrKP0eJec_9aG1egPdF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400.0999999999999" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYrKP0eJec_9aG1egPdF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ESP32" vertex="1">
+          <mxGeometry height="60" width="120" x="340.5" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="xYrKP0eJec_9aG1egPdF-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="API" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="xYrKP0eJec_9aG1egPdF-7" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.macintosh;" value="" vertex="1">
+          <mxGeometry height="64" width="99" x="351" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="xYrKP0eJec_9aG1egPdF-8" parent="1" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.cell_phone2;fillColor=#fafafa;strokeColor=#005073;" value="" vertex="1">
+          <mxGeometry height="50" width="25" x="110" y="303" as="geometry" />
+        </mxCell>
+        <mxCell id="xYrKP0eJec_9aG1egPdF-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Application" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="xYrKP0eJec_9aG1egPdF-11" edge="1" parent="1" source="xYrKP0eJec_9aG1egPdF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.015;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="xYrKP0eJec_9aG1egPdF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xYrKP0eJec_9aG1egPdF-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Demande données JSON&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="110" x="190" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="xYrKP0eJec_9aG1egPdF-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Envoie des données JSON / 10s" vertex="1">
+          <mxGeometry height="30" width="140" x="390" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="xYrKP0eJec_9aG1egPdF-14" edge="1" parent="1" source="xYrKP0eJec_9aG1egPdF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.015;exitY=0.87;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.985;entryY=0.985;entryDx=0;entryDy=0;entryPerimeter=0;" target="xYrKP0eJec_9aG1egPdF-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYrKP0eJec_9aG1egPdF-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Envoie des données" vertex="1">
+          <mxGeometry height="30" width="120" x="185" y="353" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
